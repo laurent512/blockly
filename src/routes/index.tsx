@@ -4,10 +4,10 @@ import { Ref, onMount } from "solid-js";
 export default function Home() {
   let myDiv: HTMLDivElement | undefined;
 
-  onMount(() => {
-    console.log(myDiv);
-    const ws = Blockly.inject(myDiv || "", { toolbox });
-  });
+  // onMount(() => {
+  //   console.log(myDiv);
+  //   const ws = Blockly.inject(myDiv || "", { toolbox });
+  // });
 
   const toolbox = {
     kind: "flyoutToolbox",
