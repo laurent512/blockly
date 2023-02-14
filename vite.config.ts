@@ -8,14 +8,14 @@ export default defineConfig(() => {
   return {
     plugins: [
       solid({ ssr: true, adapter: vercel({ edge: false }) }),
-      viteStaticCopy({
-        targets: [
-          {
-            src: fileURLToPath(new URL("./node_modules/blockly/media/*", import.meta.url)),
-            dest: "media",
-          },
-        ],
-      }),
+      // viteStaticCopy({
+      //   targets: [
+      //     {
+      //       src: fileURLToPath(new URL("./node_modules/blockly/media/*", import.meta.url)),
+      //       dest: "media",
+      //     },
+      //   ],
+      // }),
     ],
   };
 });
