@@ -1,8 +1,8 @@
 import solid from "solid-start/vite";
 import { defineConfig } from "vite";
 import vercel from "solid-start-vercel";
-import { viteStaticCopy } from "vite-plugin-static-copy";
-import { fileURLToPath } from "url";
+// import { viteStaticCopy } from "vite-plugin-static-copy";
+// import { fileURLToPath } from "url";
 
 export default defineConfig(() => {
   return {
