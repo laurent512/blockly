@@ -33,5 +33,13 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "blocklyDemoConfig": {
+    "title": "Blockly in React",
+    "description": "Load Blockly in a React project.",
+    "files": [
+      "build/index.html",
+      "build/**/*"
+    ]
   }
 }
