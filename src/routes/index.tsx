@@ -2,7 +2,7 @@ import Blockly from "blockly";
 import { Ref, onMount } from "solid-js";
 
 export default function Home() {
-  const myDiv: HTMLDivElement | undefined = undefined;
+  let myDiv: HTMLDivElement | undefined;
 
   onMount(() => {
     console.log(myDiv);
