@@ -1,4 +1,4 @@
-import * as Blockly from "blockly/core";
+// import * as Blockly from "blockly/core";
 import { Ref, onMount } from "solid-js";
 
 export default function Home() {
